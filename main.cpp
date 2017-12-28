@@ -10,18 +10,9 @@ using namespace std;
 
 int main(int argc, const char* argv[])
 {
-//    Mat img = cv::imread("test2.jpg");
-//    Mat img = cv::imread("./challenge_video/image-132.jpg");
-//    Mat result = getLane(img);
-//
-//    cv::imshow("image", result);
-//    cv::waitKey();
-
     // Create a VideoCapture object and open the input file
     // If the input is the web camera, pass 0 instead of the video file name
     VideoCapture cap("../challenge_video.mp4");
-//    VideoCapture cap("project_video.mp4");
-//    VideoCapture cap("harder_challenge_video.mp4");
 
     // Check if camera opened successfully
     if(!cap.isOpened()){
